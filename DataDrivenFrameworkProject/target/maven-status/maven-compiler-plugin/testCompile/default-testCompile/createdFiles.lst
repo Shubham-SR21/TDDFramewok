@@ -1,0 +1,9 @@
+com\cjc\dws\tests\Shoppingcarttest.class
+com\cjc\dws\pages\Shoppingcart.class
+com\cjc\dws\tests\AllTestcomb.class
+com\cjc\dws\pages\RegisterPage1.class
+com\cjc\dws\tests\Carttest.class
+com\cjc\dws\pages\Addtocart.class
+com\cjc\dws\tests\Checkouttest.class
+com\cjc\dws\pages\CheckoutProcess.class
+com\cjc\dws\tests\Registertest.class

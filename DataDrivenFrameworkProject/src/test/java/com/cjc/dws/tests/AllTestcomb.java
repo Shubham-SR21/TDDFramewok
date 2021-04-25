@@ -65,7 +65,7 @@ public class AllTestcomb {
 	(priority=2)
 	public void cartdtest() throws IOException, InterruptedException
 	{
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		
 		Carttest trp = PageFactory.initElements(driver, Carttest.class);
 		trp.addtocart();
 		
@@ -75,7 +75,7 @@ public class AllTestcomb {
 	(priority=3)
 	public void shopingtest() throws IOException, InterruptedException
 	{
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		
 		Shoppingcarttest trp = PageFactory.initElements(driver, Shoppingcarttest.class);
 		
 		trp.shoptest();
@@ -85,7 +85,7 @@ public class AllTestcomb {
 	(priority=4)
 	public void checkouttest() throws IOException, InterruptedException
 	{
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		
 	    Checkouttest trp = PageFactory.initElements(driver, Checkouttest.class);
 		
 		trp.checkouttest();
