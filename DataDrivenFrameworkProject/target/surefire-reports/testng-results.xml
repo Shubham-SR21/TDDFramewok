@@ -2,32 +2,69 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="76846" started-at="2021-04-25T20:37:49Z" finished-at="2021-04-25T20:39:06Z">
+  <suite name="Suite" duration-ms="62319" started-at="2021-04-25T20:43:39Z" finished-at="2021-04-25T20:44:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="76846" started-at="2021-04-25T20:37:49Z" finished-at="2021-04-25T20:39:06Z">
+    <test name="Test" duration-ms="62319" started-at="2021-04-25T20:43:39Z" finished-at="2021-04-25T20:44:41Z">
       <class name="com.cjc.dws.tests.AllTestcomb">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="openBrowser" is-config="true" duration-ms="15099" started-at="2021-04-25T20:37:34Z" finished-at="2021-04-25T20:37:49Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="openBrowser" is-config="true" duration-ms="3242" started-at="2021-04-25T20:43:36Z" finished-at="2021-04-25T20:43:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openURL()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="openURL" is-config="true" duration-ms="5924" started-at="2021-04-25T20:37:49Z" finished-at="2021-04-25T20:37:55Z">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="openURL" is-config="true" duration-ms="7507" started-at="2021-04-25T20:43:39Z" finished-at="2021-04-25T20:43:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method status="PASS" signature="maximize()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="maximize" is-config="true" duration-ms="517" started-at="2021-04-25T20:37:55Z" finished-at="2021-04-25T20:37:56Z">
+        <test-method status="PASS" signature="maximize()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="maximize" is-config="true" duration-ms="482" started-at="2021-04-25T20:43:47Z" finished-at="2021-04-25T20:43:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maximize -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-25T20:37:56Z" finished-at="2021-04-25T20:37:56Z">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-25T20:43:47Z" finished-at="2021-04-25T20:43:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="FAIL" signature="registerTestpage()[pri:1, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="registerTestpage" duration-ms="14553" started-at="2021-04-25T20:37:56Z" finished-at="2021-04-25T20:38:10Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="registerTestpage()[pri:1, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="registerTestpage" duration-ms="16841" started-at="2021-04-25T20:43:47Z" finished-at="2021-04-25T20:44:04Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[2]/input"}
+  (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.43.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90e1ec447e4d2cda2c73353f6ce0939e
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[2]/input}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.cjc.dws.tests.Registertest.regPage(Registertest.java:53)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[2]/input"}
+  (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL-PC', ip: '192.168.43.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90e1ec447e4d2cda2c73353f6ce0939e
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[2]/input}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.cjc.dws.pages.RegisterPage1.regisbutton(RegisterPage1.java:76)
+at com.cjc.dws.tests.Registertest.regPage(Registertest.java:66)
 at com.cjc.dws.tests.AllTestcomb.registerTestpage(AllTestcomb.java:61)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -59,49 +96,53 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerTestpage -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-25T20:38:10Z" finished-at="2021-04-25T20:38:10Z">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="0" started-at="2021-04-25T20:44:04Z" finished-at="2021-04-25T20:44:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="cartdtest()[pri:2, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cartdtest" duration-ms="18266" started-at="2021-04-25T20:38:10Z" finished-at="2021-04-25T20:38:28Z">
+        <test-method status="PASS" signature="cartdtest()[pri:2, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cartdtest" duration-ms="17648" started-at="2021-04-25T20:44:04Z" finished-at="2021-04-25T20:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartdtest -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-25T20:38:28Z" finished-at="2021-04-25T20:38:28Z">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-25T20:44:22Z" finished-at="2021-04-25T20:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="shopingtest()[pri:3, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="shopingtest" duration-ms="10708" started-at="2021-04-25T20:38:28Z" finished-at="2021-04-25T20:38:39Z">
+        <test-method status="PASS" signature="shopingtest()[pri:3, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="shopingtest" duration-ms="9701" started-at="2021-04-25T20:44:22Z" finished-at="2021-04-25T20:44:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopingtest -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="0" started-at="2021-04-25T20:38:39Z" finished-at="2021-04-25T20:38:39Z">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-25T20:44:31Z" finished-at="2021-04-25T20:44:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="FAIL" signature="checkouttest()[pri:4, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="checkouttest" duration-ms="26779" started-at="2021-04-25T20:38:39Z" finished-at="2021-04-25T20:39:06Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="FAIL" signature="checkouttest()[pri:4, instance:com.cjc.dws.tests.AllTestcomb@7bc1a03d]" name="checkouttest" duration-ms="10073" started-at="2021-04-25T20:44:31Z" finished-at="2021-04-25T20:44:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 10.000
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="BillingNewAddress_Company"]"}
   (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-PC', ip: '192.168.43.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 81b30d57f220c97686d01cad3c28e3ae]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90e1ec447e4d2cda2c73353f6ce0939e
+*** Element info: {Using=xpath, value=//*[@id="BillingNewAddress_Company"]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="BillingNewAddress_Company"]"}
   (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DELL-PC', ip: '192.168.43.50', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 81b30d57f220c97686d01cad3c28e3ae
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 90e1ec447e4d2cda2c73353f6ce0939e
+*** Element info: {Using=xpath, value=//*[@id="BillingNewAddress_Company"]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -112,15 +153,15 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.cjc.dws.pages.CheckoutProcess.orderno(CheckoutProcess.java:87)
-at com.cjc.dws.tests.Checkouttest.checkouttest(Checkouttest.java:37)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at com.cjc.dws.pages.CheckoutProcess.Checkoutdata(CheckoutProcess.java:58)
+at com.cjc.dws.tests.Checkouttest.checkouttest(Checkouttest.java:32)
 at com.cjc.dws.tests.AllTestcomb.checkouttest(AllTestcomb.java:91)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -152,7 +193,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkouttest -->
