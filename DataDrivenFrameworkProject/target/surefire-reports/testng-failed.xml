@@ -5,7 +5,6 @@
     <classes>
       <class name="com.cjc.dws.tests.AllTestcomb">
         <methods>
-          <include name="checkouttest"/>
           <include name="maximize"/>
           <include name="openURL"/>
           <include name="openBrowser"/>
