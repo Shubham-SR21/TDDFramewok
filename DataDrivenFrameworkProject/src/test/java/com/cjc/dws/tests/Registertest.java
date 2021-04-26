@@ -33,7 +33,7 @@ public class Registertest   {
 	{
 		RegisterPage1 rp = PageFactory.initElements(driver, RegisterPage1.class);
 		
-		FileInputStream fls= new FileInputStream("C:\\Users\\Dell\\eclipse-workspace\\DataDrivenFrameworkProject\\src\\test\\resources\\Projectexcel.xlsx");
+		FileInputStream fls= new FileInputStream("C:\\Users\\Dell\\git\\TDDFramewok\\DataDrivenFrameworkProject\\src\\test\\resources\\Projectexcel.xlsx");
 	
 		XSSFWorkbook xsw = new XSSFWorkbook(fls);
 		XSSFSheet sheet = xsw.getSheet("Sheet1");
