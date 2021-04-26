@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 94.803 sec <<< FAILURE! - in TestSuite
-registerTestpage(com.cjc.dws.tests.AllTestcomb)  Time elapsed: 37.14 sec  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.402 sec <<< FAILURE! - in TestSuite
+registerTestpage(com.cjc.dws.tests.AllTestcomb)  Time elapsed: 11.43 sec  <<< FAILURE!
 java.lang.NullPointerException: null
 	at com.cjc.dws.tests.Registertest.regPage(Registertest.java:53)
 	at com.cjc.dws.tests.AllTestcomb.registerTestpage(AllTestcomb.java:61)
