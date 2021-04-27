@@ -1,0 +1,28 @@
+browser open
+maximize window
+Open url
+browser open
+maximize window
+Open url
+This is Our Constructor
+This is Our Constructor
+This is Our Constructor
+This is Our Constructor
+This is Our Constructor
+Open Chrome
+Open URL
+Cookies addedd successfully
+This is constructor
+Row count: 3
+first Name: Shubham
+Last Name: Rathod
+Email: shgfgvcdfd@gamil.com
+Password: wwxxww
+Confirm Password: wwxxww
+Gender click
+First Name Entered
+Last Name Entered
+Email Entered
+Password Entered
+Confirm password Entered
+Registered Succesfully
