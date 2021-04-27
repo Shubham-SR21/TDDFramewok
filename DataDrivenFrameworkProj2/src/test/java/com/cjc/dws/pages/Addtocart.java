@@ -72,13 +72,13 @@ public class Addtocart  {
 		Thread.sleep(3000);
 		onedeskadd.click();
 		log.info("Add Desktop to cart");
-		Thread.sleep(3000);
+
 		jewelryclick.click();
-		Thread.sleep(3000);
+	
 		createjewelclick.click();
-		Thread.sleep(3000);
+
 		length.sendKeys(size);
-		Thread.sleep(3000);
+
 		jeweladd.click();
 		
 	}
