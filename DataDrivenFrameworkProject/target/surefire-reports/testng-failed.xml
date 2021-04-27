@@ -5,14 +5,11 @@
     <classes>
       <class name="com.cjc.dws.tests.AllTestcomb">
         <methods>
-          <include name="checkouttest"/>
           <include name="maximize"/>
-          <include name="cartdtest"/>
           <include name="openURL"/>
           <include name="openBrowser"/>
           <include name="cookies"/>
           <include name="registerTestpage"/>
-          <include name="shopingtest"/>
         </methods>
       </class> <!-- com.cjc.dws.tests.AllTestcomb -->
     </classes>
