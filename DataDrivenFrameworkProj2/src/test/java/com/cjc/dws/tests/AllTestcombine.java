@@ -110,7 +110,7 @@ public class AllTestcombine {
 		}
 	}
 	@Test(priority = 2)
-	public void addtocart() throws IOException
+	public void addtocart() throws IOException, InterruptedException
 	{
 		Addtocart addcart= PageFactory.initElements(driver, Addtocart.class);
 		FileInputStream fis = new FileInputStream("C:\\Users\\Dell\\eclipse-workspace\\DataDrivenFrameworkProj2\\src\\test\\java\\com\\cjc\\dws\\utility\\Prop.properties");

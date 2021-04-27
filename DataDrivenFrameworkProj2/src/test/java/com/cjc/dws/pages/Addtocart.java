@@ -50,25 +50,35 @@ public class Addtocart  {
 		log.info("This is constructor");
 	}
 	
-	public void cartitem(String size)
+	public void cartitem(String size) throws InterruptedException
 	{
 		books.click();
 		log.info("Books tab open");
+		Thread.sleep(3000);
 		cominterbook.click();
 		log.info("Click on specific book");
+		Thread.sleep(3000);
 		bookadd.click();
 		log.info("Book add");
+		Thread.sleep(3000);
 		comclick.click();
 		log.info("Click on computer tab");
+		Thread.sleep(3000);
 		deskclick.click();
 		log.info("Click on Desktop");
+		Thread.sleep(3000);
 		onedeskclick.click();
 		log.info("Click on specific Desktop");
+		Thread.sleep(3000);
 		onedeskadd.click();
 		log.info("Add Desktop to cart");
+		Thread.sleep(3000);
 		jewelryclick.click();
+		Thread.sleep(3000);
 		createjewelclick.click();
+		Thread.sleep(3000);
 		length.sendKeys(size);
+		Thread.sleep(3000);
 		jeweladd.click();
 		
 	}
