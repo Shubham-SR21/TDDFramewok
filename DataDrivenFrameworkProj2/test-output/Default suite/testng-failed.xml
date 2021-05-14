@@ -6,6 +6,8 @@
       <class name="com.cjc.dws.tests.AllTestcombine">
         <methods>
           <include name="maximize"/>
+          <include name="shoptest"/>
+          <include name="addtocart"/>
           <include name="checkouttest"/>
           <include name="openURL"/>
           <include name="cookies"/>

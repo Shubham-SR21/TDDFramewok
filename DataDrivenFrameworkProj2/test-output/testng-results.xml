@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56259" started-at="2021-04-27T23:06:29 IST" finished-at="2021-04-27T23:07:25 IST">
+  <suite name="Default suite" duration-ms="76726" started-at="2021-05-14T22:11:04 IST" finished-at="2021-05-14T22:12:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56259" started-at="2021-04-27T23:06:29 IST" finished-at="2021-04-27T23:07:25 IST">
+    <test name="Default test" duration-ms="76726" started-at="2021-05-14T22:11:04 IST" finished-at="2021-05-14T22:12:21 IST">
       <class name="com.cjc.dws.tests.AllTestcombine">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="openBrowser" is-config="true" duration-ms="2922" started-at="2021-04-27T23:06:26 IST" finished-at="2021-04-27T23:06:29 IST">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="openBrowser" is-config="true" duration-ms="3233" started-at="2021-05-14T22:11:01 IST" finished-at="2021-05-14T22:11:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openURL()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="openURL" is-config="true" duration-ms="3722" started-at="2021-04-27T23:06:29 IST" finished-at="2021-04-27T23:06:33 IST">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="openURL" is-config="true" duration-ms="4140" started-at="2021-05-14T22:11:04 IST" finished-at="2021-05-14T22:11:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURL -->
-        <test-method status="PASS" signature="maximize()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="maximize" is-config="true" duration-ms="512" started-at="2021-04-27T23:06:33 IST" finished-at="2021-04-27T23:06:33 IST">
+        <test-method status="PASS" signature="maximize()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="maximize" is-config="true" duration-ms="552" started-at="2021-05-14T22:11:08 IST" finished-at="2021-05-14T22:11:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maximize -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-27T23:06:33 IST" finished-at="2021-04-27T23:06:33 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="cookies" is-config="true" duration-ms="2" started-at="2021-05-14T22:11:09 IST" finished-at="2021-05-14T22:11:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="regPage()[pri:1, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="regPage" duration-ms="14038" started-at="2021-04-27T23:06:33 IST" finished-at="2021-04-27T23:06:47 IST">
+        <test-method status="PASS" signature="regPage()[pri:1, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="regPage" duration-ms="15078" started-at="2021-05-14T22:11:09 IST" finished-at="2021-05-14T22:11:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regPage -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="cookies" is-config="true" duration-ms="0" started-at="2021-04-27T23:06:47 IST" finished-at="2021-04-27T23:06:47 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="addtocart()[pri:2, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="addtocart" duration-ms="10891" started-at="2021-04-27T23:06:47 IST" finished-at="2021-04-27T23:06:58 IST">
+        <test-method status="PASS" signature="addtocart()[pri:2, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="addtocart" duration-ms="29574" started-at="2021-05-14T22:11:24 IST" finished-at="2021-05-14T22:11:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtocart -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="cookies" is-config="true" duration-ms="1" started-at="2021-04-27T23:06:58 IST" finished-at="2021-04-27T23:06:58 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="cookies" is-config="true" duration-ms="0" started-at="2021-05-14T22:11:24 IST" finished-at="2021-05-14T22:11:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="shoptest()[pri:3, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="shoptest" duration-ms="9916" started-at="2021-04-27T23:06:58 IST" finished-at="2021-04-27T23:07:08 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="cookies" is-config="true" duration-ms="1" started-at="2021-05-14T22:11:53 IST" finished-at="2021-05-14T22:11:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookies -->
+        <test-method status="PASS" signature="shoptest()[pri:3, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="shoptest" duration-ms="9953" started-at="2021-05-14T22:11:53 IST" finished-at="2021-05-14T22:12:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shoptest -->
-        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="cookies" is-config="true" duration-ms="2" started-at="2021-04-27T23:07:08 IST" finished-at="2021-04-27T23:07:08 IST">
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="cookies" is-config="true" duration-ms="0" started-at="2021-05-14T22:12:03 IST" finished-at="2021-05-14T22:12:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookies -->
-        <test-method status="PASS" signature="checkouttest()[pri:4, instance:com.cjc.dws.tests.AllTestcombine@612679d6]" name="checkouttest" duration-ms="17089" started-at="2021-04-27T23:07:08 IST" finished-at="2021-04-27T23:07:25 IST">
+        <test-method status="PASS" signature="checkouttest()[pri:4, instance:com.cjc.dws.tests.AllTestcombine@66d1af89]" name="checkouttest" duration-ms="17345" started-at="2021-05-14T22:12:03 IST" finished-at="2021-05-14T22:12:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkouttest -->

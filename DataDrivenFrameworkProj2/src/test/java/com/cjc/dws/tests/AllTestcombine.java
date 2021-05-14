@@ -67,7 +67,7 @@ public class AllTestcombine {
 	{
 		RegisterPage1 rp = PageFactory.initElements(driver, RegisterPage1.class);
 		
-		FileInputStream fls= new FileInputStream("C:\\Users\\Dell\\eclipse-workspace\\DataDrivenFrameworkProj2\\src\\test\\resources\\Projectexcel.xlsx");
+		FileInputStream fls= new FileInputStream("C:\\Users\\Dell\\git\\TDDFramewok\\DataDrivenFrameworkProj2\\src\\test\\resources\\Projectexcel.xlsx");
 	
 		XSSFWorkbook xsw = new XSSFWorkbook(fls);
 		XSSFSheet sheet = xsw.getSheet("Sheet1");

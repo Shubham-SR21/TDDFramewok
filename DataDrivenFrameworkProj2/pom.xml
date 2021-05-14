@@ -3,7 +3,7 @@
   <groupId>FrameworkProject</groupId>
   <artifactId>DemoWebShop</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>DataDrivenFramework</name>
+  <name>HybridProjectdws</name>
   <properties>
   <suiteXmlFile>testng.xml</suiteXmlFile>
   </properties>
