@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76462" started-at="2021-05-14T15:49:29Z" finished-at="2021-05-14T15:50:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="76462" started-at="2021-05-14T15:49:29Z" finished-at="2021-05-14T15:50:46Z">
+      <class name="com.cjc.dws.tests.AllTestcombine">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@1d082e88]" name="openBrowser" is-config="true" duration-ms="3645" started-at="2021-05-14T15:49:26Z" finished-at="2021-05-14T15:49:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.cjc.dws.tests.AllTestcombine@1d082e88]" name="openURL" is-config="true" duration-ms="3933" started-at="2021-05-14T15:49:29Z" finished-at="2021-05-14T15:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="regPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.cjc.dws.tests.AllTestcombine@1d082e88]" name="regPage" duration-ms="12940" started-at="2021-05-14T15:49:33Z" finished-at="2021-05-14T15:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rathod1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jhwgghgfd@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[shubh32146532]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[shubh32146532]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regPage -->
+        <test-method status="PASS" signature="addtocart()[pri:2, instance:com.cjc.dws.tests.AllTestcombine@1d082e88]" name="addtocart" duration-ms="32251" started-at="2021-05-14T15:49:46Z" finished-at="2021-05-14T15:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="shoptest()[pri:3, instance:com.cjc.dws.tests.AllTestcombine@1d082e88]" name="shoptest" duration-ms="9766" started-at="2021-05-14T15:50:19Z" finished-at="2021-05-14T15:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoptest -->
+        <test-method status="PASS" signature="checkouttest()[pri:4, instance:com.cjc.dws.tests.AllTestcombine@1d082e88]" name="checkouttest" duration-ms="17516" started-at="2021-05-14T15:50:28Z" finished-at="2021-05-14T15:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkouttest -->
+      </class> <!-- com.cjc.dws.tests.AllTestcombine -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

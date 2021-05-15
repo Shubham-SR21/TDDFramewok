@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+   <parameter name="fname" value="Shubham1"></parameter>
+<parameter name="lastname" value="Rathod1"></parameter>
+<parameter name="email" value="jhwhgggtd@gmail.com"></parameter>
+<parameter name="password" value="shubh32146532"></parameter>
+<parameter name="Cpass" value="shubh32146532"></parameter>
+    <classes>
+      <class name="com.cjc.dws.tests.AllTestcombine"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
