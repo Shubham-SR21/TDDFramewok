@@ -29,3 +29,26 @@ This is constructor
 Cookies addedd successfully
 This is constructor
 Order number: 925850
+Open Chrome
+Open URL
+Cookies addedd successfully
+This is constructor
+Row count: 3
+first Name: Shubham
+Last Name: Rathod
+Email: jsfglhgdsh3@gmail.com
+Password: wwxxww
+Confirm Password: wwxxww
+Gender click
+First Name Entered
+Last Name Entered
+Email Entered
+Password Entered
+Confirm password Entered
+Registered Succesfully
+Cookies addedd successfully
+This is constructor
+Cookies addedd successfully
+This is constructor
+Cookies addedd successfully
+This is constructor
